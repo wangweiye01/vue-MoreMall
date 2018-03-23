@@ -62,7 +62,7 @@
       <SectionHeader title="人气推荐" tips="最火最潮商品，为您挑选" moreText="更多推荐>"/>
       <div class="content">
         <ul class="left">
-          <GoodsItem 
+          <GoodsItem v-if="goodsList.length>0" 
             :id="goodsList[0].id"
             :img="goodsList[0].img"
             :name="goodsList[0].name"
@@ -222,6 +222,7 @@ export default {
         id:-1,
         name:'首页'
       });
+      console.log(data);
       this.typeList = data;
       this.getGoodsList(-1);
     })
