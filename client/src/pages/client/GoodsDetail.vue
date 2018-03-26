@@ -256,7 +256,7 @@ export default {
         token:this.clientToken,
         goodsDetailId:this.temSpecId,
         num:this.num,
-        state:1,
+        state:0,
         amount:this.goodsPrice
       });
       res
