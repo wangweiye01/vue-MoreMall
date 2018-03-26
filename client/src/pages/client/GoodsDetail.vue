@@ -261,7 +261,7 @@ export default {
       });
       res
       .then(()=>{
-        alert('自动付款成功！请耐心等待包裹派送~')
+        alert('下单成功，请去个人中心-我的订单付款')
       })
       .catch((e)=>{
         alert(e);
