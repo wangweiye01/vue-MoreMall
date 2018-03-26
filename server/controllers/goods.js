@@ -483,7 +483,8 @@ exports.settleAccounts = async (ctx)=>{
 			});
 			await OrderModel.update(
 		      {
-		        state:1,
+						// 结算，修改订单状态为未付款（0）
+		        state:0,
 		        goodsNum:item.goodsNum,
 		        amount:item.amount
 		      },{
