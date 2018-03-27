@@ -235,6 +235,7 @@ export default {
         token:this.clientToken,
         goodsDetailId:this.temSpecId,
         state:0,
+        flag:0,
         num:this.num,
         amount:this.goodsPrice
       });
@@ -257,6 +258,7 @@ export default {
         goodsDetailId:this.temSpecId,
         num:this.num,
         state:0,
+        flag:1,
         amount:this.goodsPrice
       });
       res
