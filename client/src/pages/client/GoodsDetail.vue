@@ -1,4 +1,4 @@
-jtemplate>
+<template>
   <div class="GoodsDetail">
     <div class="content">
       <div class="goodsInfo">
