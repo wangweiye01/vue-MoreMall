@@ -235,7 +235,7 @@ exports.addOrder = async (ctx)=>{
 			createtime:new Date()
 		});
 		//如果是立即购买的话，库存要马上变动
-		if(ctx.request.body.flag===1){
+		if(ctx.request.body.state===1){
 			const spec = await GoodsDetailModel.findOne({
 				attributes:['stockNum'],
 				where:{
