@@ -29,7 +29,7 @@
     "pug": "^2.0.0-rc.1",
     "request": "^2.83.0",
     "sequelize": "^4.20.1",
-    "socket.io": "^2.0.4"
+    "socket.io": "^2.4.0"
   },
   "devDependencies": {
     "nodemon": "^1.8.1"
