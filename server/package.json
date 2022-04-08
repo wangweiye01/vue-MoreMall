@@ -23,7 +23,7 @@
     "koa-static": "^3.0.0",
     "koa-views": "^5.2.1",
     "koa2-cors": "^2.0.5",
-    "moment": "^2.19.1",
+    "moment": "^2.29.2",
     "moment-timezone": "^0.5.14",
     "mysql2": "^1.4.2",
     "pug": "^2.0.0-rc.1",
