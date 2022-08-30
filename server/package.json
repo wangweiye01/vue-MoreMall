@@ -24,7 +24,7 @@
     "koa-views": "^5.2.1",
     "koa2-cors": "^2.0.5",
     "moment": "^2.19.1",
-    "moment-timezone": "^0.5.14",
+    "moment-timezone": "^0.5.35",
     "mysql2": "^1.4.2",
     "pug": "^2.0.0-rc.1",
     "request": "^2.83.0",
